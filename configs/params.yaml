@@ -1,0 +1,12 @@
+# Clustering defaults
+k: 8
+max_features: 20000
+svd_components: 50
+min_df: 2
+max_df: 0.95
+random_state: 42
+batch_size: 2048
+max_iter: 200
+
+# Silhouette sampling (for speed on big sparse data)
+silhouette_sample_size: 8000
